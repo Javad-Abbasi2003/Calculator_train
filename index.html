@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./ico.png">
+</head>
+<body>
+    <div class="calc">
+        <div class="display-area">
+            <div class="display" style="font-size: 50px;">0</div>
+            <div class="maxNumber" style="font-size:20px; color: black; visibility:hidden">Maximum number reached!</div>
+        </div>
+        <div class="keypad">
+          <table class="keypad-table"> 
+            <tr>
+              <td>
+                <div class="key all-clear grey-key">AC</div>
+              </td>
+              <td>
+                <div class="key clear-last grey-key">C</div>
+              </td>
+              <td>
+                <div class="key show-display grey-key bold-key">%</div>
+              </td>
+              <td>
+                <div class="key show-display grey-key bold-key">(</div>
+              </td>
+              <td>
+                <div class="key show-display grey-key bold-key">)</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="key show-display dark-key">7</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">8</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">9</div>
+              </td>
+              <td>
+                <div class="key show-display orange-key bold-key">/</div>
+              </td>
+              <td>
+                <div class="key tavan red-key bold-key">^</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="key show-display dark-key">4</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">5</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">6</div>
+              </td>
+              <td>
+                <div class="key show-display orange-key bold-key">*</div>
+              </td>
+              <td>
+                <div class="key sqrt red-key bold-key">&#8730</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="key show-display dark-key">1</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">2</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">3</div>
+              </td>
+              <td>
+                <div class="key show-display orange-key bold-key">-</div>
+              </td>
+              <td>
+                <div class="key pi red-key bold-key">&pi;</div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div class="key show-display dark-key" style="width: 190px">0</div>
+              </td>
+              <td>
+                <div class="key show-display dark-key">.</div>
+              </td>
+              <td>
+                <div class="key show-display orange-key bold-key">+</div>
+              </td>
+              <td>
+                <div class="key calculate green-key bold-key">=</div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    <script src="./main.js"></script>
+</body>
+</html>

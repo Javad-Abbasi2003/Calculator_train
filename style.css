@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+    font-family: Arial;
+}
+body{
+    background-color: #dbdbdb;
+}
+.calc{
+    width: 550px;
+    margin: 100px auto;
+    background-color: rgb(218, 222, 224);
+    border-radius: 40px;
+    border: 1px solid #d8d8d8;
+    box-shadow:  7px 7px 20px #bcbcbc,
+    -7px -7px 20px #ffffff;
+}
+.display-area{
+    background-color: #c7c7c7b6;
+    height: 120px;
+    text-shadow: 3px 3px 7px #c2c4c7,
+    -3px -3px 7px #ffffff;
+    color: #ffffff;
+    text-align: left;
+    font-size: 60px;
+    padding: 30px 25px;
+    margin: 30px 30px 15px 30px;
+    border-radius: 20px;
+    box-shadow:  inset 5px 5px 20px #9b9b9b,
+    inset -5px -5px 20px #ffffff;
+}
+.maxNumber{
+    text-shadow: 1px 1px 2px #585858,
+    -1px -1px 2px #ffffff;
+}
+.keypad-table{
+    margin-left: 20px;
+    padding-bottom: 25px;
+}
+.key{
+    width: 90px;
+    height: 90px;
+    border: 1px solid rgb(145, 145, 145);
+    text-align: center;
+    line-height: 90px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #333333;
+    color: #ecf0f3;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 3px 3px 7px #c2c4c7,
+    -3px -3px 7px #ffffff;
+}
+.orange-key{
+    background-color: #ffa45c;
+}
+.grey-key{
+    background-color: #a5a5a5;
+}
+.red-key{
+    background-color: #8a3939;
+}
+.green-key{
+    background-color: #1a714d;
+}
+.dark-key:active{
+    box-shadow: inset 3px 3px 7px #242424,
+    inset -3px -3px 7px #5a5a5a;
+}
+.grey-key:active{
+    box-shadow: inset 3px 3px 7px #757575dc,
+    inset -3px -3px 7px #d6d6d6dc;
+}
+.orange-key:active{
+    box-shadow: inset 3px 3px 7px #757575a1,
+    inset -3px -3px 7px #d6d6d6a1;
+}
+.green-key:active{
+    box-shadow: inset 3px 3px 7px #446a4aa1,
+    inset -3px -3px 7px #8cd295a1;
+}
+.red-key:active{
+    box-shadow: inset 3px 3px 7px #756262a1,
+    inset -3px -3px 7px #d9b9b9a1;
+}
+.bold-key{
+    font-size: 40px
+}
